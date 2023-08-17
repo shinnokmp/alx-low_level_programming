@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - nmbr fct
- * 
  * Return: no return
  */
 void more_numbers(void)
@@ -15,7 +14,7 @@ void more_numbers(void)
 		{	
 			if (j >= 10)
 				_putchar('1');
-				_putchar(j % 10 + '0');
+			_putchar(j % 10 + '0');
 		}
 		_putchar('\n');
 	}
