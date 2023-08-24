@@ -4,7 +4,7 @@
  * @s:string
  * Return:char
  */
-/*char *string_toupper(char *str)
+char *string_toupper(char *str)
 
 {
 
@@ -12,14 +12,14 @@
 
 	while (str[index])
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] -= 32;
-		index++;
+	if (str[index] >= 'a' && str[index] <= 'z')
+	str[index] -= 32;
+	index++;
 	}
 	return (str);
 
-}*/
-
+}
+/*
 char *string_toupper(char *s)
 {
 	int i = 0;
@@ -33,7 +33,7 @@ char *string_toupper(char *s)
 	}
 	return (s);
 }
-
+*/
 /*char *string_toupper(char *s)
 {
 	int i;
