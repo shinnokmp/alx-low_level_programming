@@ -35,7 +35,7 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 			close(fd_from);
 		if (fd_to != -1)
 			close(fd_to);
-			exit(98);
+		exit(98);
 	}
 }
 
@@ -57,7 +57,7 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 			close(fd_from);
 		if (fd_to != -1)
 			close(fd_to);
-			exit(99);
+		exit(99);
 	}
 }
 
